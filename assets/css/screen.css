@@ -1,0 +1,104 @@
+html, body {
+    height: 100%;
+
+}
+
+body {
+    
+    background-image: url(/assets/images/macbookPro.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    /*
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/assets/images/macbookPro.jpg) no-repeat center fixed;
+    background-size: cover;
+    */
+}
+
+
+header{
+    display: flex;
+    color: white;
+    padding: 1%;
+    height: 5%;
+    position: relative; ;
+    width: 100%;
+   
+    
+    
+}
+
+.navigation {
+    width: 70%;
+    text-align: right;
+}
+.navigation ul li {
+    margin-left: 5%;
+    font-size: 1.2rem;
+    
+}
+
+
+
+.contact{
+    width: 30%;
+    text-align: right;
+    margin-right: 5%;
+  
+}
+
+
+li {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+h1 {
+    text-align: right;
+    height: 10%;
+    font-size:5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding-bottom: 1%;
+}
+
+
+main{
+
+    height: 90%;
+    width: 80%;
+    margin-left:auto ;
+    margin-right: auto;
+    color: white;
+    overflow: auto;   
+    
+}
+
+article {
+    background-color: rgba(105, 105, 105, 0.4);
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+    
+footer {
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+

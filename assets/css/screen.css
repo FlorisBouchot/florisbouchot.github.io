@@ -1,33 +1,46 @@
+/*
+        GENERAL CSS
+*/
+
+
+html {
+    background-color: black;
+}
+
+
 html, body {
     height: 100%;
     width: 100%;
-    overflow-x: hidden; 
-    overflow-y: hidden; 
-
+    overflow: hidden; 
 }
+
 
 body {
     /*
     background-image: url(/assets/images/macbookPro.jpg)no-repeat center fixed;
     background-size: cover;
     */
-
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url(/assets/images/macbookPro.jpg) no-repeat center fixed;
     background-size: cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
     
 }
 
 
 header{
     display: flex;
-    color: white;
     padding: 1%;
     height: 5%;
     position: relative; ;
     width: 100%;
    
-    
-    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
 }
 
 .navigation {
@@ -40,59 +53,84 @@ header{
     
 }
 
-
-
 .contact{
     width: 30%;
     text-align: right;
     margin-right: 5%;
-  
-}
 
+}
 
 li {
     display: inline-block;
     font-size: 2rem;
 }
 
-h1 {
-    text-align: right;
-    height: 10%;
-    font-size:5rem;
-}
-
-h2 {
-    font-size: 2rem;
-    padding-bottom: 1%;
-}
-
-
 main{
-
     height: 90%;
     width: 80%;
     margin-left:auto ;
     margin-right: auto;
-    color: white;
     overflow: auto;   
-    
+   
 }
-
-article {
-    background-color: rgba(105, 105, 105, 0.4);
-    padding: 1%;
-    margin-bottom: 2%;
-}
-
-
-
-
-
     
 footer {
-  color: white;
   text-align: center;
+  
 }
+
+
+
+/*
+        INDEX PAGE
+*/
+
+
+
+.index {
+    width: 60%;
+    text-align: right;
+
+}
+
+.index  h1 {
+    font-size: 5rem;
+    margin-top: 3%;
+    margin-bottom: 5%;
+
+}
+
+.index  h2 {
+    font-size: 1.5rem;
+}
+
+/*
+        ABOUT PAGE
+*/
+
+.about img {
+    height: 25%;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+/*
+        PROJECTS PAGE
+*/
+
+
+
+
+
+
+
 
 
 

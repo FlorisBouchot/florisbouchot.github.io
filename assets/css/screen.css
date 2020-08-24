@@ -93,14 +93,14 @@ footer {
 
 }
 
-.index  h1 {
+.index h1 {
     font-size: 5rem;
     margin-top: 3%;
     margin-bottom: 5%;
 
 }
 
-.index  h2 {
+.index h2 {
     font-size: 1.5rem;
 }
 
@@ -118,13 +118,30 @@ footer {
 
 
 
-
-
-
 /*
         PROJECTS PAGE
 */
 
+
+
+
+/*
+        MOBILE OPTIMIZATION
+*/
+
+@media only screen and (min-width: 350px) {
+
+    .index {
+        width: 80%;
+    }
+    .index h1 {
+        font-size: 3rem;
+    }
+    .index h2 {
+        font-size: 1.2rem;
+    }
+    
+  }
 
 
 
